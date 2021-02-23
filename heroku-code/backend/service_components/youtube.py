@@ -123,6 +123,7 @@ class YouTube:
       part = "snippet",
       id = video_id
     )
+
     response = request.execute()
     title_tmp = response['items'][0]['snippet']['title']
 

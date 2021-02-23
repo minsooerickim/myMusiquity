@@ -9,7 +9,6 @@
 			src="https://kit.fontawesome.com/30f3d4670e.js"
 			crossorigin="anonymous"
 		></script>
-		<script src="/frontend/jquery-3.5.1.js"></script>
 
 		<!-- Bootstrap CSS -->
 		<link
@@ -26,21 +25,8 @@
 		<nav class="navbar navbar-expand-lg navbar-light">
 			<div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
-					<h4>Musiquity</h2>
-                    <!--<img src="/images/Musiqu.png" alt="Musiquity logo" style="width: 120px; height: 30px;">-->
+					<h4>Musiquity</h2> 
                 </a>
-                <!-- <a class="navbar-brand" href="#">Navbar</a>
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarSupportedContent"
-					aria-controls="navbarSupportedContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button> -->
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 						<li class="nav-item">
@@ -50,16 +36,6 @@
 							<a class="nav-link active" href="#contact">Contact</a>
 						</li>
 					</ul>
-					<!-- <form class="d-flex">
-						<input
-							class="form-control me-2"
-							type="search"
-							placeholder="Search"
-							aria-label="Search"
-						/>
-						<button class="btn btn-outline-success" type="submit">
-							Search
-						</button> -->
 					</form>
 				</div>
 			</div>
@@ -71,7 +47,7 @@
 			</div>
 
 			<form id="myForm" class="form">
-				<input id="pls" type="text" placeholder=" song, album, artist, ..."/>
+				<input type="text" placeholder=" song, album, artist, ..."/>
 				<button id="button" class = "btn btn-outline-success" type="submit" value="Submit">Search</button>
 			</form>
 			
@@ -80,23 +56,59 @@
 		<div class="results">
 			<div id="container">
                 <div class="column" id="left">
-                    <div class="content" id="left-banner">
+                    <div class="content">
                         <h2><i class="fab fa-spotify"></i></h2>
+					</div>
+					<div class="list" id="song1">
+
+					</div>
+					<div class="list"id="song2">
+
+					</div>
+					<div class="list"id="song3">
+
 					</div>
                 </div>
 				<div class="column" id="middle">
                     <div class="content">
                         <h2><i class="fab fa-apple"></i></h2>
 					</div>
+					<div class="list" id="song1">
+
+					</div>
+					<div class="list"id="song2">
+
+					</div>
+					<div class="list"id="song3">
+
+					</div>
                 </div>
 				<div class="column" id="right">
                     <div class="content">
                         <h2><i class="fab fa-youtube"></i></h2>
 					</div>
+					<div class="list" id="song1">
+
+					</div>
+					<div class="list"id="song2">
+
+					</div>
+					<div class="list"id="song3">
+
+					</div>
                 </div>
 				<div class="column" id="far-right">
                     <div class="content">
                         <h2><i class="fab fa-google-play"></i></h2>
+					</div>
+					<div class="list" id="song1">
+
+					</div>
+					<div class="list"id="song2">
+
+					</div>
+					<div class="list"id="song3">
+
 					</div>
                 </div>
 			</div>
